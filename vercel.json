@@ -4,5 +4,12 @@
       "source": "/",
       "destination": "/templates/index.html"
     }
+  ],
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/main.py"
+    }
   ]
 }
