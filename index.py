@@ -24,6 +24,3 @@ def submit():
 def get():
     if request.method == 'GET':
         return clipboard
-
-def handler(event, context):
-    return app(event, context)
