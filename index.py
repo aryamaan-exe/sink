@@ -5,7 +5,8 @@ users = {}
 
 @app.route('/')
 def index():
-    return "hi"
+    return render_template('index.html')
+
 @app.route('/submit', methods=['POST'])
 def submit():
     global clipboard
